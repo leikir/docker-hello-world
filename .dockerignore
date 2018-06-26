@@ -1,0 +1,18 @@
+# GIT
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Rails
+.ruby-version
+/log
+/tmp
+
+# Other
+**/.DS_Store
+**/.editorconfig
+**/.idea
+**/README.md
