@@ -1,24 +1,9 @@
-# README
+# Hello World
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an example Rails app responding "Hello World" on its standard port.
 
-Things you may want to cover:
+To run it, use
 
-* Ruby version
+`docker run -it --rm -p3000:3000 leikir/hello-world`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+and visit http://localhost:3000
